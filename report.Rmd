@@ -26,6 +26,12 @@ random_numbers2 <- readRDS(
 random_numbers3 <- readRDS(
   here::here("output/random_numbers3.rds")
 )
+random_numbers4 <- readRDS(
+  here::here("output/random_numbers4.rds")
+)
+random_numbers5 <- readRDS(
+  here::here("output/random_numbers5.rds")
+)
 ```
 
 # Random numbers 1
@@ -54,4 +60,11 @@ hist(random_numbers3)
 ```{r}
 random_numbers4 <- readRDS("output/random_numbers4.rds")
 hist(random_numbers4, main = "Histogram of Random Numbers 4", xlab = "Values")
+```
+
+## Random numbers 5
+
+```{r}
+random_numbers5 <- readRDS("output/random_numbers5.rds")
+hist(random_numbers5, main = "Histogram of Random Numbers 5", xlab = "Values")
 ```
